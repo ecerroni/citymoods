@@ -1,0 +1,18 @@
+twitter-provider:
+  password: "test"
+  data:
+    is_provider: true
+
+web:
+  password: "test"
+  serverData:
+    bob
+  clientData:
+    some-optional: "auth-data"
+
+
+mirko:
+  password: ""
+
+rico:
+  password: ""

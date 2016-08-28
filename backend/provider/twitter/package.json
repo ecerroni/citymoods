@@ -1,0 +1,17 @@
+{
+  "name": "cm",
+  "version": "1.0.0",
+  "description": "City Moods",
+  "author": "ric0 <info@enricocerroni.com>",
+  "private": true,
+  "scripts": {
+    "start": "node twitter-provider.js"
+  },
+  "dependencies": {
+    "deepstream.io-client-js": "1.0.2",
+    "bluebird": "3.4.1",
+    "request": "2.72.0"
+  },
+  "devDependencies": {
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "cm",
+  "version": "1.0.0",
+  "description": "City Moods",
+  "author": "ric0 <info@enricocerroni.com>",
+  "private": true,
+  "scripts": {
+    "start": "node server_express.js"
+  },
+  "dependencies": {
+    "deepstream.io": "1.0.3",
+    "express": "4.0.0"
+  },
+  "devDependencies": {
+  }
+}
