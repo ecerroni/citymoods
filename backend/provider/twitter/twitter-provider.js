@@ -132,7 +132,7 @@ function onSubscription ( recordName, isSubscribed) {
                             var diffPositive =0
 
                         }
-                        if (timeline.length < 360) {// pulling every 20 seconds I got 120 minutes after 360 slots
+                        if (timeline.length < 600) {// pulling every 20 seconds I got 120 minutes after 600 slots
                             timeline.push(['', polarity.positive.length, polarity.negative.length, polarity.neutral.length])
                         } else {
                             timeline.shift();
